@@ -1,0 +1,71 @@
+#container {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border-style: double;
+    border-color: black;
+    border-radius: 0.5cm;
+    padding-bottom: 1cm;
+    margin: 2cm 12cm;
+    border-width: 0.2cm;
+    background-color: white;
+}
+body
+{
+    background-color: black;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2cm;
+}
+button {
+    border-radius: 0.3cm;
+    border-color: black;
+    border-style: double;
+    border-width: 0.2cm;
+    font-style: oblique;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+input {
+    width: 5cm;
+    height:fit-content;
+}
+#for {
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+}
+label {
+    font-size: larger;
+}
+#result {
+    color: red;
+    font-size: large;
+}
+#loading
+{
+    color: green;
+    font-size: large;
+}
+#display
+{
+    justify-content: center;
+    display: block;
+    text-align: center;
+    text-decoration: darkblue;
+    font-size: larger;
+    color: white;
+}
+#weather-info
+{
+    text-shadow: 0.2cm;
+    font-style: oblique;
+    box-shadow: blue;
+    color:white;
+    font-weight: bolder;
+}

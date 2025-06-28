@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Webpage</title>
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="mobile.css">
+    <link rel="stylesheet"  media="screen and (min-width:768px)" href="desktop.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm75xmVov3YsmTDkcexO57Rl6EO3eZtmphLA&s">
+    
+</head>
+<body>
+    <div id="container">
+        <h2>*** Welcome to Weather Monitoring App ***</h2>
+        <br>
+        <div id="question">
+            <div id="for">
+                <label for="city">Enter any City or Place:</label>
+                <input type="text" name="city" id="city" placeholder="City">
+            </div>
+            <div id="result"></div>
+            <br><br>
+            <div id="buttons">
+                <button onclick="submit()" id="button">GET WEATHER</button>
+                <button onclick="reset()" id="reset">RESET</button>
+            </div><br>
+            <div id="loading"></div>
+        </div>
+    </div>
+    <div id="display"></div>
+</body>
+</html>
